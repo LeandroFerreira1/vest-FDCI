@@ -1,0 +1,93 @@
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.bg-info1 {
+    background: #1d354d !important;
+  }
+
+  .bg-info2 {
+    background: #363C45 !important;
+  }
+
+  #contato{
+    padding: 20px;
+  }
+
+  #map {
+    height: 300px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+
+  .email-link{
+    margin: 20px;
+  }
+
+  .envelope{
+    margin-right: 5px;
+  }
+
+  .mail{
+    color: #fff;
+    font-size: 1.5em;
+  }
+
+  .mail:hover{
+    color: #fff;
+  }
+
+
+  .depoimentos{
+  background-color: #ffffff;
+  background-image: url("../image/fundo.png");
+  background-attachment: fixed;
+  background-size: cover;
+
+  }
+
+  @media screen and (max-width: 767px){
+    .texto1{
+      font-size: 1.3em;
+      max-width: 100%; 
+      line-height: 1.8rem;
+    }
+
+    .email-link {
+      margin: 10px;
+    }
+
+    #map {
+      height: 250px;
+      width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    .texto1{
+      max-width: 55%; 
+      line-height: 2.1rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+  .texto1{
+    max-width: 55%; 
+    line-height: 2.2rem;
+  }
+
+}
+
+@media screen and (min-width: 1200px){
+  .texto1{
+    max-width: 60%; 
+      line-height: 2.4rem;
+  }
+}
